@@ -170,7 +170,7 @@ void print_rover_button_state(rover  rover_robot){
 }
 
 
-// int  main(){
+int  main(){
 // 	//output_controller output;
 // 	//output.freq_echantillonage=1;
 // 	//output.retour_base=false;
@@ -193,5 +193,5 @@ void print_rover_button_state(rover  rover_robot){
 // 	print_rover_button_state(rover_robot);
 
 // 	return 1;
-// }
+}
 
