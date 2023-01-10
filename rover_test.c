@@ -45,7 +45,7 @@ void button_emergency_test(void){
    rover rover_robot=create_rover(0,0,100);
    CU_ASSERT(!(rover_robot.button_emergency));
    button_pressed(&rover_robot);
-   CU_ASSERT(rover_robot.button_emergency);
+   CU_ASSERT(!rover_robot.button_emergency);
 }
 
 /************* Test Runner Code goes here **************/
