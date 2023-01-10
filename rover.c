@@ -159,6 +159,7 @@ void print_rover_capteur(rover  rover_robot){
 	printf("left=%.2f\n",rover_robot.distance_left);
 }
 
+
 void print_rover_button_state(rover  rover_robot){
 	printf("\nRover button\n");
 	if(rover_robot.button_emergency){
