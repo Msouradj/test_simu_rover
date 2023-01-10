@@ -80,6 +80,7 @@ int main ( void )
    printf("\n");
    CU_basic_show_failures(CU_get_failure_list());
    printf("\n\n");
+
    
 /*
    // Run all tests using the automated interface
