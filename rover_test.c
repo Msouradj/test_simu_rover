@@ -91,5 +91,5 @@ int main ( void )
    /* Clean up registry and return */
    CU_cleanup_registry();
    return CU_get_error();
-   
+
 }
