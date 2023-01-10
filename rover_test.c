@@ -88,7 +88,6 @@ int main ( void )
    // Run all tests using the console interface
    //CU_console_run_tests();
 
-
    /* Clean up registry and return */
    CU_cleanup_registry();
    return CU_get_error();
