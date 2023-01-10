@@ -1,6 +1,6 @@
 #include "CUnit/CUnit.h"
 #include "CUnit/Basic.h"
-//#include "CUnit/Automated.h"
+#include "CUnit/Automated.h"
 //#include "CUnit/Console.h"
 
 #include "rover.h"
@@ -80,9 +80,6 @@ int main ( void )
    printf("\n");
    CU_basic_show_failures(CU_get_failure_list());
    printf("\n\n");
-
-  
-   
 /*
    // Run all tests using the automated interface
    CU_automated_run_tests();
