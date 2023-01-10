@@ -20,6 +20,7 @@ float convert_kmh_to_ms(float speed){
 }
 
 
+
 void apply_speed(output_controller output, rover * rover_robot){
 	rover_robot->roue1.vitesse=output.vitesse_droit;
 	rover_robot->roue2.vitesse=output.vitesse_droit;
